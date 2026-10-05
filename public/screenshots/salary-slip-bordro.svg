@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-rpt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="card-rpt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="emerald-grad-rpt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="shadow-rpt" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" fill="url(#bg-grad-rpt)" />
+
+  <!-- Window Frame -->
+  <rect x="40" y="30" width="1120" height="620" rx="16" fill="#0b0f19" stroke="#334155" stroke-width="1.5" filter="url(#shadow-rpt)" />
+  <rect x="40" y="30" width="1120" height="42" rx="16" fill="#1e293b" />
+  <rect x="40" y="60" width="1120" height="12" fill="#1e293b" />
+  <circle cx="68" cy="51" r="6" fill="#ef4444" />
+  <circle cx="88" cy="51" r="6" fill="#f59e0b" />
+  <circle cx="108" cy="51" r="6" fill="#10b981" />
+
+  <rect x="220" y="40" width="760" height="22" rx="6" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
+  <text x="600" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">https://mesaitakip.app/reports/bordro-preview</text>
+
+  <!-- Header &amp; Actions -->
+  <g transform="translate(64, 90)">
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="20" fill="#f8fafc">Bordro Hakediş &amp; İcmal Raporu</text>
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#94a3b8">Ekim 2026 Dönemi Resmi Fazla Çalışma ve Tatil Mesai Hakediş Pusulası</text>
+
+    <!-- Action Buttons -->
+    <g transform="translate(740, 6)">
+      <rect x="0" y="0" width="150" height="38" rx="8" fill="#10b981" />
+      <text x="75" y="24" font-family="sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">📊 Excel / CSV İndir</text>
+
+      <rect x="165" y="0" width="165" height="38" rx="8" fill="#4f46e5" />
+      <text x="247" y="24" font-family="sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle">🖨️ Yazdır / PDF Kaydet</text>
+    </g>
+  </g>
+
+  <!-- Summary Cards -->
+  <g transform="translate(64, 155)">
+    <!-- Summary Left -->
+    <rect x="0" y="0" width="340" height="110" rx="12" fill="url(#card-rpt)" stroke="#334155" stroke-width="1" />
+    <text x="24" y="28" font-family="sans-serif" font-size="12" fill="#94a3b8">Çalışan &amp; Taban Ücret</text>
+    <text x="24" y="58" font-family="sans-serif" font-weight="800" font-size="18" fill="#f8fafc">Ahmet Yılmaz</text>
+    <text x="24" y="80" font-family="sans-serif" font-size="12" fill="#818cf8">Taban Saatlik Ücret: ₺180,00 / saat</text>
+    <text x="24" y="98" font-family="sans-serif" font-size="11" fill="#64748b">Haftalık Standart: 45 Saat</text>
+
+    <!-- Summary Mid -->
+    <rect x="366" y="0" width="340" height="110" rx="12" fill="url(#card-rpt)" stroke="#334155" stroke-width="1" />
+    <text x="390" y="28" font-family="sans-serif" font-size="12" fill="#94a3b8">Mesai Saat Dağılımı</text>
+    <text x="390" y="58" font-family="sans-serif" font-weight="800" font-size="20" fill="#cbd5e1">24.5 <tspan font-size="13" font-weight="500">Toplam Saat</tspan></text>
+    <text x="390" y="80" font-family="sans-serif" font-size="12" fill="#60a5fa">● 18.5s Normal Fazla Mesai (1.5x)</text>
+    <text x="390" y="98" font-family="sans-serif" font-size="12" fill="#f59e0b">● 6.0s Resmi Tatil / Bayram (2.0x)</text>
+
+    <!-- Summary Right - Net Ek Ödeme -->
+    <rect x="732" y="0" width="340" height="110" rx="12" fill="#064e3b" stroke="#059669" stroke-width="1.5" />
+    <text x="756" y="28" font-family="sans-serif" font-size="12" fill="#a7f3d0">Bordroya İlave Edilecek Net Tutar</text>
+    <text x="756" y="68" font-family="sans-serif" font-weight="900" font-size="28" fill="#34d399">₺ 6.840,00</text>
+    <text x="756" y="95" font-family="sans-serif" font-size="11" fill="#6ee7b7">✓ Yasal formül ile kuruşu kuruşuna teyitli</text>
+  </g>
+
+  <!-- Detailed Table (Slip format) -->
+  <g transform="translate(64, 285)">
+    <rect x="0" y="0" width="1072" height="325" rx="12" fill="url(#card-rpt)" stroke="#334155" stroke-width="1" />
+
+    <!-- Table Header -->
+    <rect x="16" y="16" width="1040" height="36" rx="6" fill="#1e293b" />
+    <text x="36" y="39" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">HAKEDİŞ KALEMİ</text>
+    <text x="280" y="39" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">DAYANAK (4857 KANUN)</text>
+    <text x="520" y="39" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">SÜRE</text>
+    <text x="650" y="39" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">BİRİM SAAT ÜCRETİ</text>
+    <text x="830" y="39" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">HESAP FORMÜLÜ</text>
+    <text x="1036" y="39" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="end">TOPLAM BRÜT/NET</text>
+
+    <!-- Row 1: Normal Hafta İçi Mesai -->
+    <g transform="translate(16, 62)">
+      <rect x="0" y="0" width="1040" height="48" rx="6" fill="#0f172a" />
+      <text x="20" y="28" font-family="sans-serif" font-weight="700" font-size="13" fill="#ffffff">Hafta İçi Fazla Çalışma</text>
+      <text x="264" y="28" font-family="sans-serif" font-size="11.5" fill="#a5b4fc">Madde 41 (%50 Zamlı)</text>
+      <text x="504" y="28" font-family="sans-serif" font-size="12" fill="#cbd5e1">12.5 Saat</text>
+      <text x="634" y="28" font-family="sans-serif" font-size="12" fill="#cbd5e1">₺ 270,00 (1.5x)</text>
+      <text x="814" y="28" font-family="sans-serif" font-size="11" fill="#64748b">12.5s × ₺180 × 1.5</text>
+      <text x="1020" y="28" font-family="sans-serif" font-weight="700" font-size="13" fill="#34d399" text-anchor="end">₺ 3.375,00</text>
+    </g>
+
+    <!-- Row 2: Hafta Sonu Mesai -->
+    <g transform="translate(16, 118)">
+      <rect x="0" y="0" width="1040" height="48" rx="6" fill="#0f172a" />
+      <text x="20" y="28" font-family="sans-serif" font-weight="700" font-size="13" fill="#ffffff">Hafta Tatili / Pazar Mesaisi</text>
+      <text x="264" y="28" font-family="sans-serif" font-size="11.5" fill="#a5b4fc">Madde 46 (Hafta Tatili)</text>
+      <text x="504" y="28" font-family="sans-serif" font-size="12" fill="#cbd5e1">6.0 Saat</text>
+      <text x="634" y="28" font-family="sans-serif" font-size="12" fill="#cbd5e1">₺ 216,00 (1.5x)</text>
+      <text x="814" y="28" font-family="sans-serif" font-size="11" fill="#64748b">6.0s × ₺180 × 1.5</text>
+      <text x="1020" y="28" font-family="sans-serif" font-weight="700" font-size="13" fill="#34d399" text-anchor="end">₺ 1.620,00</text>
+    </g>
+
+    <!-- Row 3: Ulusal Bayram &amp; Genel Tatil (UBGT) -->
+    <g transform="translate(16, 174)">
+      <rect x="0" y="0" width="1040" height="48" rx="6" fill="#2e1065" stroke="#7e22ce" stroke-width="0.8" />
+      <text x="20" y="28" font-family="sans-serif" font-weight="700" font-size="13" fill="#f5d0fe">Ulusal Bayram / UBGT Mesaisi (29 Ekim)</text>
+      <text x="264" y="28" font-family="sans-serif" font-size="11.5" fill="#f472b6">Madde 47 (Tam Gün %100 Zamlı)</text>
+      <text x="504" y="28" font-family="sans-serif" font-size="12" fill="#fbcfe8">6.0 Saat</text>
+      <text x="634" y="28" font-family="sans-serif" font-size="12" fill="#fbcfe8">₺ 360,00 (2.0x)</text>
+      <text x="814" y="28" font-family="sans-serif" font-size="11" fill="#e879f9">6.0s × ₺180 × 2.0</text>
+      <text x="1020" y="28" font-family="sans-serif" font-weight="800" font-size="14" fill="#34d399" text-anchor="end">₺ 2.160,00</text>
+    </g>
+
+    <!-- Table Summary Footer -->
+    <g transform="translate(16, 238)">
+      <rect x="0" y="0" width="1040" height="60" rx="8" fill="#1e293b" />
+      <text x="24" y="36" font-family="sans-serif" font-weight="800" font-size="14" fill="#ffffff">GENEL EK HAKEDİŞ TOPLAMI</text>
+      <text x="320" y="36" font-family="sans-serif" font-size="12" fill="#94a3b8">Bordroya İlave Edilecek Fazla Çalışma Karşılığı</text>
+      <text x="520" y="36" font-family="sans-serif" font-weight="700" font-size="13" fill="#f8fafc">24.5 Saat</text>
+      <text x="1020" y="36" font-family="sans-serif" font-weight="900" font-size="20" fill="#34d399" text-anchor="end">₺ 6.840,00 NET</text>
+    </g>
+  </g>
+</svg>

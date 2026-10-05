@@ -1,0 +1,6 @@
+{
+  "name": "MesaiTakip",
+  "description": "4857 Sayılı İş Kanununa uygun fazla mesai, hafta sonu çarpanı ve net ek gelir takip ve hesaplama uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

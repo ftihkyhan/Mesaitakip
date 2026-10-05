@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-cal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="card-cal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="primary-grad-cal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <filter id="shadow-cal" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" fill="url(#bg-grad-cal)" />
+
+  <!-- Window Frame -->
+  <rect x="40" y="30" width="1120" height="620" rx="16" fill="#0b0f19" stroke="#334155" stroke-width="1.5" filter="url(#shadow-cal)" />
+  <rect x="40" y="30" width="1120" height="42" rx="16" fill="#1e293b" />
+  <rect x="40" y="60" width="1120" height="12" fill="#1e293b" />
+  <circle cx="68" cy="51" r="6" fill="#ef4444" />
+  <circle cx="88" cy="51" r="6" fill="#f59e0b" />
+  <circle cx="108" cy="51" r="6" fill="#10b981" />
+
+  <rect x="220" y="40" width="760" height="22" rx="6" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
+  <text x="600" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">https://mesaitakip.app/calendar?view=month&amp;date=2026-10</text>
+
+  <!-- App Header &amp; Navigation -->
+  <g transform="translate(64, 90)">
+    <rect x="0" y="0" width="36" height="36" rx="8" fill="url(#primary-grad-cal)" />
+    <text x="18" y="24" font-family="sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle">M</text>
+    <text x="46" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#f8fafc">MesaiTakip <tspan fill="#818cf8" font-size="12" font-weight="600">PRO</tspan></text>
+    <text x="46" y="34" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#94a3b8">Takvim &amp; Resmi Tatil Görünümü</text>
+
+    <!-- Month Picker -->
+    <g transform="translate(420, 2)">
+      <rect x="0" y="0" width="34" height="32" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="17" y="21" font-family="sans-serif" font-weight="700" font-size="14" fill="#cbd5e1" text-anchor="middle">‹</text>
+
+      <rect x="42" y="0" width="160" height="32" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="122" y="21" font-family="sans-serif" font-weight="700" font-size="13" fill="#f8fafc" text-anchor="middle">📅 Ekim 2026</text>
+
+      <rect x="210" y="0" width="34" height="32" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="227" y="21" font-family="sans-serif" font-weight="700" font-size="14" fill="#cbd5e1" text-anchor="middle">›</text>
+
+      <rect x="254" y="0" width="60" height="32" rx="6" fill="#312e81" />
+      <text x="284" y="21" font-family="sans-serif" font-weight="600" font-size="11" fill="#a5b4fc" text-anchor="middle">Bugün</text>
+    </g>
+
+    <!-- Month Totals Badge -->
+    <g transform="translate(860, 2)">
+      <rect x="0" y="0" width="210" height="34" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1" />
+      <text x="105" y="22" font-family="sans-serif" font-weight="700" font-size="12" fill="#34d399" text-anchor="middle">Toplam: 24.5s • ₺ 6.840,00</text>
+    </g>
+  </g>
+
+  <!-- Calendar Day Headers -->
+  <g transform="translate(64, 150)">
+    <rect x="0" y="0" width="1072" height="32" rx="8" fill="#1e293b" />
+    <text x="76" y="21" font-family="sans-serif" font-weight="700" font-size="11" fill="#94a3b8" text-anchor="middle">PAZARTESİ</text>
+    <text x="229" y="21" font-family="sans-serif" font-weight="700" font-size="11" fill="#94a3b8" text-anchor="middle">SALI</text>
+    <text x="382" y="21" font-family="sans-serif" font-weight="700" font-size="11" fill="#94a3b8" text-anchor="middle">ÇARŞAMBA</text>
+    <text x="535" y="21" font-family="sans-serif" font-weight="700" font-size="11" fill="#94a3b8" text-anchor="middle">PERŞEMBE</text>
+    <text x="688" y="21" font-family="sans-serif" font-weight="700" font-size="11" fill="#94a3b8" text-anchor="middle">CUMA</text>
+    <text x="841" y="21" font-family="sans-serif" font-weight="700" font-size="11" fill="#818cf8" text-anchor="middle">CUMARTESİ</text>
+    <text x="994" y="21" font-family="sans-serif" font-weight="700" font-size="11" fill="#f43f5e" text-anchor="middle">PAZAR</text>
+  </g>
+
+  <!-- Calendar Grid Sample (Week of October 26 - Nov 1, highlighting 28 &amp; 29 Oct Holidays) -->
+  <g transform="translate(64, 192)">
+    <!-- Week Row 1 sample -->
+    <!-- Day 12 Mon: Overtime -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="150" height="96" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-weight="700" font-size="14" fill="#ffffff">12</text>
+      <rect x="8" y="38" width="134" height="24" rx="4" fill="#312e81" />
+      <text x="75" y="54" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#c7d2fe" text-anchor="middle">⏱️ 3.0s (1.5x) • ₺810</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" fill="#64748b">18:00 - 21:00</text>
+    </g>
+
+    <!-- Day 13 Tue -->
+    <g transform="translate(153, 0)">
+      <rect x="0" y="0" width="150" height="96" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">13</text>
+    </g>
+
+    <!-- Day 14 Wed -->
+    <g transform="translate(306, 0)">
+      <rect x="0" y="0" width="150" height="96" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">14</text>
+    </g>
+
+    <!-- Day 15 Thu -->
+    <g transform="translate(459, 0)">
+      <rect x="0" y="0" width="150" height="96" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">15</text>
+    </g>
+
+    <!-- Day 16 Fri -->
+    <g transform="translate(612, 0)">
+      <rect x="0" y="0" width="150" height="96" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">16</text>
+    </g>
+
+    <!-- Day 17 Sat -->
+    <g transform="translate(765, 0)">
+      <rect x="0" y="0" width="150" height="96" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">17</text>
+    </g>
+
+    <!-- Day 18 Sun: Overtime -->
+    <g transform="translate(918, 0)">
+      <rect x="0" y="0" width="154" height="96" rx="8" fill="#0f172a" stroke="#4f46e5" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-weight="700" font-size="14" fill="#ffffff">18</text>
+      <rect x="8" y="38" width="138" height="24" rx="4" fill="#3730a3" />
+      <text x="77" y="54" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#e0e7ff" text-anchor="middle">⏱️ 6.0s (1.5x) • ₺1.620</text>
+      <text x="12" y="82" font-family="sans-serif" font-size="10" fill="#a5b4fc">Hafta Sonu Mesai</text>
+    </g>
+
+    <!-- Week Row 2 (With Holidays 28 and 29) -->
+    <!-- Day 26 Mon -->
+    <g transform="translate(0, 106)">
+      <rect x="0" y="0" width="150" height="110" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">26</text>
+    </g>
+
+    <!-- Day 27 Tue -->
+    <g transform="translate(153, 106)">
+      <rect x="0" y="0" width="150" height="110" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">27</text>
+    </g>
+
+    <!-- Day 28 Wed (Half Day Holiday) -->
+    <g transform="translate(306, 106)">
+      <rect x="0" y="0" width="150" height="110" rx="8" fill="#1c1917" stroke="#f59e0b" stroke-width="1.2" />
+      <text x="12" y="24" font-family="sans-serif" font-weight="700" font-size="14" fill="#fbbf24">28</text>
+      <rect x="8" y="36" width="134" height="22" rx="4" fill="#78350f" />
+      <text x="75" y="51" font-family="sans-serif" font-size="9.5" font-weight="700" fill="#fef3c7" text-anchor="middle">🇹🇷 28 Ekim Yarım Gün</text>
+      <rect x="8" y="64" width="134" height="34" rx="4" fill="#1e293b" />
+      <text x="75" y="78" font-family="sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Saat 13:00 Sonrası Tatil</text>
+      <text x="75" y="91" font-family="sans-serif" font-size="9" font-weight="600" fill="#f59e0b" text-anchor="middle">Çarpan: 2.0x</text>
+    </g>
+
+    <!-- Day 29 Thu (CUMHURİYET BAYRAMI - FULL HOLIDAY with 2.0x Overtime) -->
+    <g transform="translate(459, 106)">
+      <rect x="0" y="0" width="150" height="110" rx="8" fill="#3b0764" stroke="#d946ef" stroke-width="1.5" />
+      <text x="12" y="24" font-family="sans-serif" font-weight="800" font-size="14" fill="#f5d0fe">29</text>
+      <rect x="8" y="34" width="134" height="22" rx="4" fill="#86198f" />
+      <text x="75" y="49" font-family="sans-serif" font-size="9.5" font-weight="800" fill="#ffffff" text-anchor="middle">🇹🇷 Cumhuriyet Bayramı</text>
+      <rect x="8" y="60" width="134" height="38" rx="4" fill="#4a044e" stroke="#c026d3" stroke-width="0.8" />
+      <text x="75" y="75" font-family="sans-serif" font-size="10" font-weight="700" fill="#f472b6" text-anchor="middle">⏱️ 6.0s (2.0x) • ₺2.160</text>
+      <text x="75" y="90" font-family="sans-serif" font-size="9" fill="#fbcfe8" text-anchor="middle">09:00 - 15:00 • Resmi Tatil</text>
+    </g>
+
+    <!-- Day 30 Fri -->
+    <g transform="translate(612, 106)">
+      <rect x="0" y="0" width="150" height="110" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">30</text>
+    </g>
+
+    <!-- Day 31 Sat -->
+    <g transform="translate(765, 106)">
+      <rect x="0" y="0" width="150" height="110" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#64748b">31</text>
+    </g>
+
+    <!-- Day 1 Nov Sun -->
+    <g transform="translate(918, 106)">
+      <rect x="0" y="0" width="154" height="110" rx="8" fill="#070a11" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="24" font-family="sans-serif" font-size="14" fill="#475569">1 Kas</text>
+    </g>
+  </g>
+
+  <!-- Legend &amp; Holiday Info Footer Bar -->
+  <g transform="translate(64, 550)">
+    <rect x="0" y="0" width="1072" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+
+    <circle cx="28" cy="30" r="6" fill="#6366f1" />
+    <text x="42" y="34" font-family="sans-serif" font-size="12" fill="#cbd5e1">Normal Mesai (1.5x)</text>
+
+    <circle cx="210" cy="30" r="6" fill="#f59e0b" />
+    <text x="224" y="34" font-family="sans-serif" font-size="12" fill="#cbd5e1">Resmi Tatil / Dini Bayram (2.0x)</text>
+
+    <circle cx="460" cy="30" r="6" fill="#10b981" />
+    <text x="474" y="34" font-family="sans-serif" font-size="12" fill="#cbd5e1">Canlı Takip Aktif</text>
+
+    <rect x="760" y="14" width="292" height="32" rx="6" fill="#0f172a" stroke="#475569" stroke-width="0.8" />
+    <text x="906" y="34" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">🇹🇷 2026 Türkiye Resmi Tatilleri Otomatik Entegre</text>
+  </g>
+</svg>
